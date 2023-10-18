@@ -1,1 +1,1 @@
-# cms_blog.werstack
+# cms.werstack
