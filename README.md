@@ -1,9 +1,21 @@
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});
+</script>
+
 # api.werstack
 
 REST API и Data Base.
 
 ## Структура базы данных
 
+graph TD;
+    Products-->productImages;
+    Products-->productAttributes;
+    Products-->productPrices;
+    Products-->productDiscounts;
+    Products-->productRatings;
+    Products-->productReviews;
+    
 ### Поля схемы `Users`
 
 Поле | Описание
