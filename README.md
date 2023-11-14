@@ -4,10 +4,6 @@ REST API и Data Base.
 
 ## Структура базы данных
 
-<svg width="80" height="90" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="80" height="90" fill="#D9D9D9"/>
-</svg>
-
 ### Поля схемы `Users`
 
 Поле | Описание
