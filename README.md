@@ -4,13 +4,24 @@ REST API и Data Base.
 
 ## Структура базы данных
 ```mermaid
-  flowchart LR;
-      A[Products]-->B[productImages, "prodactId", "url", "altText"];
-      A[Products]-->C[productAttributes];
-      A[Products]-->D[productPrices];
-      A[Products]-->E[productDiscounts];
-      A[Products]-->F[productRatings];
-      A[Products]-->G[productReviews];
+classDiagram
+C01 <|-- AveryLongClass : Cool
+<<Interface>> C01
+Class09 --> C2 : Where am I?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+C01 : size()
+C01 : int chimp
+C01 : int gorilla
+class Class10 {
+  <<service>>
+  int id
+  size()
+}
+
+  
 
       
 ```
