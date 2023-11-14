@@ -3,37 +3,29 @@
 REST API и Data Base.
 
 ## Структура базы данных
-```html
-<style>
-  .styleClass > rect {
-    fill: #ff0000;
-    stroke: #ffff00;
-    stroke-width: 4px;
-  }
-</style>
-```
 
 ```mermaid
 classDiagram
-Products --> productImages:::green
-Products --> productAttributes
-Products --> productPrices
-Products --> productDiscounts
-Products --> productRatings
-Products --> productReviews
-class Products:::styleClass {
+class Products {
   product_id
   name
   description
   brand
   brand_code
+  stock_quantity
+  created_at
+  updated_at
+  category_id
+  seller_id
 }
 
-
-
-  
-
-      
+Products --> productImages
+Products --> productAttributes
+Products --> productPrices
+Products --> productDiscounts
+Products --> productRatings
+Products --> productReviews
+     
 ```
 
     
