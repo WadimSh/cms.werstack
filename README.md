@@ -19,12 +19,12 @@ class Products {
   seller_id
 }
 
-Products --> productImages
-Products --> productAttributes
-Products --> productPrices
-Products --> productDiscounts
-Products --> productRatings
-Products --> productReviews
+Products --|> productImages : id
+Products --|> productAttributes : id
+Products --|> productPrices : id
+Products --|> productDiscounts : id
+Products --|> productRatings : id
+Products --|> productReviews : id
      
 ```
 
