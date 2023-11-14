@@ -5,12 +5,12 @@ REST API и Data Base.
 ## Структура базы данных
 ```mermaid
   flowchart LR;
-      A[Products]-->B[productImages];
+      A[Products]-->B[productImages, "prodactId", "url", "altText"];
       A[Products]-->C[productAttributes];
       A[Products]-->D[productPrices];
-      A[Products]-->B[productDiscounts];
-      A[Products]-->B[productRatings];
-      A[Products]-->B[productReviews];
+      A[Products]-->E[productDiscounts];
+      A[Products]-->F[productRatings];
+      A[Products]-->G[productReviews];
 
       
 ```
