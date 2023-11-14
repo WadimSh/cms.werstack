@@ -1,9 +1,3 @@
-# api.werstack
-
-REST API и Data Base.
-
-## Структура базы данных
-
 <style>
   .styleClass > rect {
     fill: #ff0000;
@@ -11,6 +5,12 @@ REST API и Data Base.
     stroke-width: 4px;
   }
 </style>
+
+# api.werstack
+
+REST API и Data Base.
+
+## Структура базы данных
 
 ```mermaid
 classDiagram
