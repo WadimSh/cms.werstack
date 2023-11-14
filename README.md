@@ -1,19 +1,15 @@
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true});
-</script>
-
 # api.werstack
 
 REST API и Data Base.
 
 ## Структура базы данных
-```graph TD;
-    Products-->productImages;
-    Products-->productAttributes;
-    Products-->productPrices;
-    Products-->productDiscounts;
-    Products-->productRatings;
-    Products-->productReviews;
+```flow
+st=>start: Start
+e=>end: End
+op1=>operation: My Operation
+sub1=>subroutine: My Subroutine
+cond=>condition: Yes or No?
+io=>inputoutput: catch something...
 ```
 
     
