@@ -4,7 +4,9 @@ REST API и Data Base.
 
 ## Структура базы данных
 ```mermaid
-  graph TD;
+  classDiagram;
+    Products: name;
+    Products: description;
     Products-->productImages;
     Products-->productAttributes;
     Products-->productPrices;
