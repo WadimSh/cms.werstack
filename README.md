@@ -5,7 +5,8 @@ REST API и Data Base.
 ## Структура базы данных
 ```mermaid
 classDiagram
-Products --> productImages
+classDef green color:#022e1f,fill:#00f500;
+Products --> productImages:::green
 Products --> productAttributes
 Products --> productPrices
 Products --> productDiscounts
