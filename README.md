@@ -1,10 +1,11 @@
-<style>
+(setq markdown-xhtml-header-content
+      "<style type='text/css'>
   .styleClass > rect {
     fill: #ff0000;
     stroke: #ffff00;
     stroke-width: 4px;
   }
-</style>
+</style>")
 
 # api.werstack
 
