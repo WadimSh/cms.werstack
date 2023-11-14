@@ -3,7 +3,6 @@
 REST API и Data Base.
 
 ## Структура базы данных
-```mermaid
 <style>
   .styleClass > rect {
     fill: #ff0000;
@@ -11,6 +10,8 @@ REST API и Data Base.
     stroke-width: 4px;
   }
 </style>
+```mermaid
+
 
 classDiagram
 Products --> productImages:::green
