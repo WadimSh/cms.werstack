@@ -5,6 +5,8 @@ REST API и Data Base.
 ## Структура базы данных
 ```mermaid
   flowchart LR;
+      A[Products]-->B[productImages];
+
       A[CI MULTI CHAPTCHA]-->B{Select captcha service by developer?};
       classDef green color:#022e1f,fill:#00f500;
       classDef red color:#022e1f,fill:#f11111;
