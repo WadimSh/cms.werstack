@@ -7,8 +7,7 @@
 REST API и Data Base.
 
 ## Структура базы данных
-```
-graph TD;
+```graph TD;
     Products-->productImages;
     Products-->productAttributes;
     Products-->productPrices;
